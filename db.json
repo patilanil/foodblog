@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "title": "Title 1",
+      "description": "description\": \"Are you a vegetarian and looking for a twist to your meal? If the answer is yes, you need to head to  ffNandita's blog The Saffron Trail. All about vegetarian home cooked food, her feed is sure to give even non-vegetarians major food goals. Also a writer of the book, The Everyday Healthy Vegetarian, Nandita has leveled up the cooking game with her recipes. Nandita is definitely one of the top food influencers in India who makes our crave for mouth-watering dishes made with such precision and art",
+      "image": "/assets/food.jpg",
+      "id": 3
+    },
+    {
+      "title": "Title 2",
+      "description": "description\": \"Are you a vegetarian and looking for a twist to your meal? If the answer is yes, you need to head to Nandita's blog The Saffron Trail. All about vegetarian home cooked food, her feed is sure to give even non-vegetarians major food goals. Also a writer of the book, The Everyday Healthy Vegetarian, Nandita has leveled up the cooking game with her recipes. Nandita is definitely one of the top food influencers in India who makes our crave for mouth-watering dishes made with such precision and artdescription\": \"Are you a vegetarian and looking for a twist to your meal? If the answer is yes, you need to head to Nandita's blog The Saffron Trail. All about vegetarian home cooked food, her feed is sure to give even non-vegetarians major food goals. Also a writer of the book, The Everyday Healthy Vegetarian, Nandita has leveled up the cooking game with her recipes. Nandita is definitely one of the top food influencers in India who makes our crave for mouth-watering dishes made with such precision and artdescription\": \"Are you a vegetarian and looking for a twist to your meal? If the answer is yes, you need to head to Nandita's blog The Saffron Trail. All about vegetarian home cooked food, her feed is sure to give even non-vegetarians major food goals. Also a writer of the book, The Everyday Healthy Vegetarian, Nandita has leveled up the cooking game with her recipes. Nandita is definitely one of the top food influencers in India who makes our crave for mouth-watering dishes made with such precision and art",
+      "image": "/assets/food.jpg",
+      "id": 5
+    },
+    {
+      "title": "Title 3",
+      "description": "i am a food blog is an award winning food blog that’s been around since 2010 featuring hundreds of easy, fun, and delicious modern Asian- and globally-inspired recipes that celebrate the joy of home cooking. Our tips and tricks will have you cooking like a pro in no time. Pull up a chair and stick around for awhile, let’s be friends and eat together!",
+      "image": "/assets/food.jpg",
+      "id": 6
+    },
+    {
+      "title": "Title 4",
+      "description": "i am a food blog is an award winning food blog that’s been around since 2010 featuring hundreds of easy, fun, and delicious modern Asian- and globally-inspired recipes that celebrate the joy of home cooking. Our tips and tricks will have you cooking like a pro in no time. Pull up a chair and stick around for awhile, let’s be friends and eat together!",
+      "image": "/assets/food.jpg",
+      "id": 7
+    },
+    {
+      "title": "Title 5",
+      "description": "i am a food blog is an award winning food blog that’s been around since 2010 featuring hundreds of easy, fun, and delicious modern Asian- and globally-inspired recipes that celebrate the joy of home cooking. Our tips and tricks will have you cooking like a pro in no time. Pull up a chair and stick around for awhile, let’s be friends and eat together!",
+      "image": "/assets/food.jpg",
+      "id": 8
+    }
+  ]
+}

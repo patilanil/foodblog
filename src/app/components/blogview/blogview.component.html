@@ -1,0 +1,50 @@
+<app-header [is_addbutton_display] = "false"></app-header>
+<div style="width: 90%; padding: 5%;">
+    <mat-card>
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image"></div>
+          <mat-card-title>{{ blogdetail?.title }}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image [src]="blogdetail?.image" alt="Photo of a salad">
+        <mat-card-content>
+          <p>
+           {{ blogdetail?.description }}
+          </p>
+        </mat-card-content>
+        <mat-card-actions>
+            <button mat-button (click) = "onModelShow()" (click)="updateBlogModal.show()">EDIT</button>
+          </mat-card-actions>
+    </mat-card>
+</div>
+
+<div class="modal fade" bsModal #updateBlogModal="bs-modal" tabindex="-1" role="dialog"
+    aria-labelledby="dialog-static-name">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h1 class="modal-title" id="exampleModalLabel">Update Blog</h1>
+                <button type="button" class="close pull-right" #closeBtn aria-label="Close" (click)="updateBlogModal.hide()">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form #blogForm="ngForm">
+                    <div class="form-group">
+                        <label for="title">Title</label>
+                        <input name="title" required [value] = "blogdetail?.title" type="text"  class="form-control" id="title"
+                             ngModel placeholder="Enter title">
+                    </div>
+                    <div class="form-group">
+                        <label for="descrition">Description</label>
+                        <textarea name="description" 
+                        [value] = "blogdetail?.description"  required ngModel class="form-control" id="descrition"
+                            placeholder="Description">
+                        </textarea>
+                    </div>
+                    <button (click)="updateBlog()" type="button" class="btn btn-primary">SAVE</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+

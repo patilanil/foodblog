@@ -1,0 +1,26 @@
+
+.main-container{
+    width: 100%; 
+    height: 80%;
+    position: relative;
+
+}
+  .blog-list-container  {
+    padding-top: 5%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center
+  }
+
+  .blog-list-container > mat-card {
+      flex: 0 0 25%;
+      margin-right: 10px;
+      margin-bottom: 10px;
+      cursor: pointer;
+  }
+  
+  /* .example-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  } */

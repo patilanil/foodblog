@@ -1,0 +1,11 @@
+<div class="blog-header">
+    <div style="cursor: pointer" routerLink = "/blog">
+        <h1><span>FOOD BLOG</span></h1>
+    </div>
+    <div *ngIf = "is_addbutton_display">
+        <button type="button" class="btn btn-link" (click)="onShow()">
+            <span>Add Blog</span>
+        </button>
+    </div>
+</div>
+<app-addblog></app-addblog>

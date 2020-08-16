@@ -1,0 +1,25 @@
+
+<ng-template #template>
+    <div class="modal-header">
+        <h1 class="modal-title" id="exampleModalLabel">Post Blog</h1>
+        <button type="button" class="close pull-right" aria-label="Close" (click)="onHide()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <form #blogForm = "ngForm" (ngSubmit) = addBlog(blogForm)>
+            <div class="form-group">
+                <label for="title">Title</label>
+                <input name="title" type="text" required ngModel class="form-control" id="title"
+                    aria-describedby="emailHelp" placeholder="Enter title">
+            </div>
+            <div class="form-group">
+                <label for="descrition">Description</label>
+                <textarea name="description" required ngModel class="form-control" id="descrition"
+                    placeholder="Description">
+                </textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Add</button>
+        </form>
+    </div>
+  </ng-template>
